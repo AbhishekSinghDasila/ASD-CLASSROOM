@@ -1,0 +1,16 @@
+Dlib is a powerful open-source C++ machine learning and computer vision toolkit that includes comprehensive Python bindings.
+It is widely celebrated for its highly accurate, real-world face detection and landmark prediction capabilities, commonly serving as the backend core for popular
+packages like face_recognition.
+
+dlib-bin is a PyPI package that provides pre-compiled binary wheels for the dlib machine learning library. Installing the standard dlib package often fails because it requires compiling C++ code, which forces you to install large external tools like CMake and Visual Studio. Using dlib-bin bypasses the entire compilation step so you can start working instantly
+
+Why prefer use dlib-bin over dlib
+
+github is agar install karna ha to use command ---> git+repo_ka_name
+aur ek setuptools karke library bhi install karni hogi taki working smooth ho help karta ha github se install me
+
+Supabase is an open-source "Backend-as-a-Service" (BaaS) that replaces the need to build and manage complex backend servers. Developers use it to instantly create full-stack applications by providing a managed PostgreSQL database, user authentication, file storage, and serverless edge functions.
+
+Segno is a pure Python QR Code and Micro QR Code generator. It stands out because it operates with no external dependencies. It can natively export QR codes to formats like SVG, PNG, PDF, and EPS without extra graphic libraries.
+
+Pillow (PIL Fork) is the standard Python library for opening, manipulating, and saving images. It is a powerful, user-friendly successor to the original Python Imaging Library (PIL).
