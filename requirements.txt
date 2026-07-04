@@ -1,0 +1,29 @@
+streamlit
+numpy
+pandas
+scikit-learn
+matplotlib
+dlib-bin
+
+git+https://github.com/ageitgey/face_recognition_models
+
+setuptools
+
+supabase
+bcrypt
+
+segno
+
+pillow
+
+
+
+# --- Voice pipeline ---
+# resemblyzer depends on torch. By default `pip install torch` on Linux pulls
+# the full GPU/CUDA build (3-5+ GB of extra Nvidia wheels), which is what was
+# blowing past disk/build limits and causing the install to fail.
+# We don't need a GPU here, so we force the small CPU-only build instead.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+resemblyzer
+librosa
